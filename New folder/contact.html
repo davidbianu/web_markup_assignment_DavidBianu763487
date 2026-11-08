@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Student web design project">
+    <meta name="description" content="Contact the Transfăgărășan information website with a question, correction or request for help understanding the travel information.">
+    <meta name="keywords" content="Transfăgărășan, Romania, Carpathians, travel, mountain road">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | The Transfăgărășan</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+    <section class="header-inner">
+        <a class="brand" href="index.html">
+            <img src="img/favicon.svg" alt="Mountain logo" title="Transfăgărășan guide logo">
+            <span>Carpathian Road Guide</span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="road-information.html">Road Information</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="visualise-route.html">Visualise Route</a></li>
+                <li><a href="warnings.html">Warnings</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+<main>
+<section class="page-hero">
+    <section class="page-shell">
+        <p class="eyebrow">Discover the Carpathians</p>
+        <h1>Need Help? Contact Us</h1>
+        <p class="">Have a question about the Transfăgărășan or found something unclear on our website? Send us a message and tell us how we can help.</p>
+        
+    </section>
+</section>
+<section class="page-shell contact-layout">
+    <article>
+        <p class="eyebrow">We are here to help</p>
+        <h2>How can we help?</h2>
+        <p>Visitors can use the contact form if they have a question about the Transfăgărășan, find information on the website that is unclear or incorrect, or need assistance understanding the information provided.</p>
+        <p>After submitting the form, visitors can expect their message to be reviewed and a response to be provided using the email address they enter.</p>
+        <figure>
+            <img class="contact-art" src="img/message.svg" alt="Illustration of an open message envelope with a notification symbol" title="Contact and visitor assistance illustration">
+            <figcaption>Send a question or let us know if something needs correcting.</figcaption>
+        </figure>
+        <p class="form-note">This student demonstration website does not have a connected mail server. The form shows browser validation and a local confirmation only.</p>
+    </article>
+    <form id="contact-form" action="#" method="post">
+        <fieldset>
+            <legend>Send us a message</legend>
+            <label for="visitor-name">Name</label>
+            <input id="visitor-name" name="name" type="text" placeholder="Enter your name" autocomplete="name" required>
+            <label for="visitor-email">Email address</label>
+            <input id="visitor-email" name="email" type="email" placeholder="Enter your email address" autocomplete="email" required>
+            <label for="visitor-subject">Subject</label>
+            <select id="visitor-subject" name="subject" required>
+                <option value="">What is your question about?</option>
+                <option value="road">Road information</option>
+                <option value="history">History</option>
+                <option value="safety">Safety information</option>
+                <option value="correction">Website correction</option>
+                <option value="other">Other question</option>
+            </select>
+            <label for="visitor-message">Message</label>
+            <textarea id="visitor-message" name="message" placeholder="Write your message here..." required></textarea>
+            <input class="button" type="submit" value="Send Message">
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+        </fieldset>
+    </form>
+</section>
+</main>
+<footer class="site-footer">
+    <section class="footer-inner">
+        <section>
+            <h2>Transfăgărășan</h2>
+            <p>A student travel guide to one of Romania’s best-known mountain roads. Plan carefully, respect the mountains and check official updates.</p>
+        </section>
+        <section>
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="road-information.html">Road information</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="visualise-route.html">Visualise the route</a></li>
+                <li><a href="warnings.html">Safety warnings</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Useful links</h3>
+            <ul>
+                <li><a href="https://romania.travel/" target="_blank" rel="noopener">Romania tourism</a></li>
+                <li><a href="https://www.meteoromania.ro/" target="_blank" rel="noopener">Weather information</a></li>
+                <li><a href="https://www.cnadnr.ro/" target="_blank" rel="noopener">Road authority</a></li>
+                <li><a href="https://www.112.ro/" target="_blank" rel="noopener">Emergency information</a></li>
+            </ul>
+        </section>
+    </section>
+    <p class="copyright">© 2026 Transfăgărășan Student Guide. All rights reserved. Symbols: &copy; &reg; &trade; &amp; &quot; &pound; &euro;.</p>
+</footer>
+<aside class="cookie-notice" id="cookie-notice" aria-label="Cookie notice">
+    <p><strong>Cookie notice:</strong> This learning project uses no tracking cookies. You can dismiss this message.</p>
+    <button type="button" id="cookie-close">OK</button>
+</aside>
+<script src="js/site.js"></script>
+</body>
+</html>

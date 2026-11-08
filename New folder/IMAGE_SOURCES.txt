@@ -1,0 +1,17 @@
+IMAGE SOURCES AND NOTES
+
+The site uses a mixture of original SVG illustrations in img/ and externally hosted photographs.
+Photographs are loaded from their source hosts, so an internet connection is needed to display them.
+
+- Transfăgărășan aerial road photo: Headout image result / Mountain Drive
+  https://www.headout.com/
+- Vidraru Dam and reservoir photo: Maszol article image
+  https://maszol.ro/gazdasag/Hatodjara-fut-nek-a-Hidroelectrica-egy-vizeromu-korszerusitesenek
+- Brown bear photo: Much Better Adventures article image (credited there to Getty Images)
+  https://www.muchbetteradventures.com/magazine/best-wildlife-watching-holidays/
+- Snowy Transfăgărășan photo: GetYourGuide image
+  https://www.getyourguide.com/
+- Historical construction photo: Transfagarasan.travel
+  https://transfagarasan.travel/de/
+- Additional aerial road photo: MMQ Photography
+  https://www.mmq-photography.com/post/die-transfagarasan-rum%C3%A4niens-bekanntester-pass

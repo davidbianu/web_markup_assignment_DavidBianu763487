@@ -1,0 +1,5 @@
+Student name: David Stefan Bianu	
+Student number: 7634877
+Student class: IT1C
+GitHub Repository: https://github.com/davidbianu/web_markup_handin_assignment_DavidBianu763487.git
+GitHub Pages URL: [enter your published website URL]
